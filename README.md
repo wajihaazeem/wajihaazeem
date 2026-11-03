@@ -46,20 +46,21 @@
 
 ---
 
-### GitHub Stats <!-- Uses your username automatically -->
+### GitHub Analytics <!-- Uses your username automatically -->
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=wajihaazeem&show_icons=true&count_private=true&hide_border=true&title_color=A855F7&icon_color=6C63FF&text_color=ffffff&bg_color=0D1117&rank_icon=github" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajihaazeem&layout=compact&hide_border=true&title_color=A855F7&text_color=ffffff&bg_color=0D1117&langs_count=8" height="170" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wajihaazeem&theme=github_dark" width="98%" alt="Profile details" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=wajihaazeem&hide_border=true&background=0D1117&ring=A855F7&fire=6C63FF&currStreakLabel=A855F7&sideLabels=ffffff&dates=9CA3AF&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wajihaazeem&theme=github_dark" width="49%" alt="Contribution stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wajihaazeem&theme=github_dark&utcOffset=5" width="49%" alt="Productive time" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wajihaazeem&bg_color=0D1117&color=A855F7&line=6C63FF&point=ffffff&area=true&hide_border=true" width="95%" alt="Contribution graph" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wajihaazeem&theme=github_dark" width="49%" alt="Repositories per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=wajihaazeem&theme=github_dark" width="49%" alt="Most commit language" />
 
 </div>
 
