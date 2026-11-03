@@ -50,17 +50,12 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wajihaazeem&theme=default&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4&border_color=D6E2EC&chart_color=4682B4&animation=load&duration=2" width="98%" alt="Profile details" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=wajihaazeem&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajihaazeem&layout=compact&langs_count=8&hide_border=true&bg_color=F7F9FC&title_color=0B2545&text_color=334E68" alt="Top languages" />
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wajihaazeem&theme=default&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4&border_color=D6E2EC&chart_color=4682B4&animation=load&duration=2&hide_logo=true" width="49%" alt="Contribution stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wajihaazeem&theme=default&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4&border_color=D6E2EC&chart_color=4682B4&animation=load&duration=2&utcOffset=5" width="49%" alt="Productive time" />
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wajihaazeem&theme=default&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4&border_color=D6E2EC&chart_color=4682B4&animation=load&duration=2" width="49%" alt="Repositories per language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=wajihaazeem&theme=default&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4&border_color=D6E2EC&chart_color=4682B4&animation=load&duration=2" width="49%" alt="Most commit language" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=wajihaazeem&bg_color=F7F9FC&color=0B2545&line=4682B4&point=4682B4&area=true&area_color=B0D4E3&hide_border=true" width="97%" alt="Contribution activity" />
 
 </div>
 
