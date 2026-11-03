@@ -1,40 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" role="img" aria-label="Wajiha Azeem — Frontend Developer">
   <defs>
     <radialGradient id="glowLeft" cx="0.12" cy="0.25" r="0.75">
-      <stop offset="0" stop-color="#6366F1" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0" stop-color="#B0D4E3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#B0D4E3" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glowRight" cx="0.9" cy="0.7" r="0.6">
-      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#4682B4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#4682B4" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#6366F1" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0" stop-color="#B0D4E3" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4682B4"/>
+      <stop offset="1" stop-color="#B0D4E3" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#6366F1"/>
+      <stop offset="0" stop-color="#5D9BC7"/>
+      <stop offset="1" stop-color="#4682B4"/>
     </linearGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="8"/>
     </filter>
   </defs>
 
-  <rect width="1000" height="300" fill="#0d1117"/>
+  <rect width="1000" height="300" fill="#F7F9FC"/>
   <rect width="1000" height="300" fill="url(#glowLeft)"/>
   <rect width="1000" height="300" fill="url(#glowRight)"/>
 
   <!-- eyebrow -->
-  <text x="70" y="66" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="4" fill="#7d8590">GITHUB PROFILE</text>
-  <rect x="70" y="80" width="42" height="3" rx="1.5" fill="#6366F1"/>
+  <text x="70" y="66" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="4" fill="#5C7A99">GITHUB PROFILE</text>
+  <rect x="70" y="80" width="42" height="3" rx="1.5" fill="#4682B4"/>
 
   <!-- name -->
-  <text x="70" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="#e6edf3">Wajiha Azeem</text>
+  <text x="70" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="#0B2545">Wajiha Azeem</text>
 
   <!-- role -->
-  <text x="70" y="188" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#8b949e">Frontend Developer  ·  UI Engineer</text>
+  <text x="70" y="188" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#5C7A99">Frontend Developer  ·  UI Engineer</text>
 
   <!-- accent underline -->
   <rect x="70" y="202" width="120" height="2" rx="1" fill="url(#accentLine)">
@@ -43,41 +43,41 @@
 
   <!-- status pill -->
   <g>
-    <rect x="70" y="218" width="204" height="34" rx="17" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="92" cy="235" r="4" fill="#3fb950">
+    <rect x="70" y="218" width="204" height="34" rx="17" fill="#FFFFFF" stroke="#D6E2EC" stroke-width="1"/>
+    <circle cx="92" cy="235" r="4" fill="#4682B4">
       <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.45;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="92" cy="235" r="4" fill="#3fb950" opacity="0.35" filter="url(#glow)">
+    <circle cx="92" cy="235" r="4" fill="#4682B4" opacity="0.3" filter="url(#glow)">
       <animate attributeName="r" values="4;9;4" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.35;0;0.35" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="110" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#c9d1d9">Open to opportunities</text>
+    <text x="110" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#334E68">Open to opportunities</text>
   </g>
 
   <!-- right orbital graphic -->
   <g>
-    <circle cx="835" cy="150" r="46" fill="none" stroke="#30363d" stroke-width="1"/>
-    <circle cx="835" cy="150" r="78" fill="none" stroke="#21262d" stroke-width="1"/>
-    <circle cx="835" cy="150" r="110" fill="none" stroke="#21262d" stroke-width="1"/>
+    <circle cx="835" cy="150" r="46" fill="none" stroke="#D6E2EC" stroke-width="1"/>
+    <circle cx="835" cy="150" r="78" fill="none" stroke="#C2D6E6" stroke-width="1"/>
+    <circle cx="835" cy="150" r="110" fill="none" stroke="#C2D6E6" stroke-width="1"/>
 
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0 835 150" to="360 835 150" dur="20s" repeatCount="indefinite"/>
-      <circle cx="835" cy="72" r="4.5" fill="#818CF8"/>
+      <circle cx="835" cy="72" r="4.5" fill="#4682B4"/>
     </g>
     <g>
       <animateTransform attributeName="transform" type="rotate" from="360 835 150" to="0 835 150" dur="30s" repeatCount="indefinite"/>
-      <circle cx="835" cy="40" r="3" fill="#2DD4BF" opacity="0.8"/>
+      <circle cx="835" cy="40" r="3" fill="#B0D4E3"/>
     </g>
 
     <circle cx="835" cy="150" r="9" fill="url(#node)"/>
-    <circle cx="835" cy="150" r="9" fill="#6366F1" opacity="0.5" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="3s" repeatCount="indefinite"/>
+    <circle cx="835" cy="150" r="9" fill="#4682B4" opacity="0.4" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- footer hairline with moving highlight -->
-  <line x1="70" y1="284" x2="930" y2="284" stroke="#21262d" stroke-width="1"/>
+  <line x1="70" y1="284" x2="930" y2="284" stroke="#D6E2EC" stroke-width="1"/>
   <rect y="283" width="110" height="2" rx="1" fill="url(#accentLine)">
     <animate attributeName="x" values="70;820;70" dur="9s" repeatCount="indefinite"/>
   </rect>
