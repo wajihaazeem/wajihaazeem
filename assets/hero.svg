@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" role="img" aria-label="Wajiha Azeem">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060f"/>
+      <stop offset="0.5" stop-color="#0d0b1f"/>
+      <stop offset="1" stop-color="#0a0716"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.35" stop-color="#A855F7"/>
+      <stop offset="0.65" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+      <animate attributeName="x1" values="-0.6;0.4;-0.6" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.4;1.4;0.4" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C63FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#7c6cf0" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="360" fill="url(#bg)"/>
+
+  <circle cx="180" cy="90" r="150" fill="#6C63FF" opacity="0.35" filter="url(#blur)">
+    <animate attributeName="cx" values="180;320;180" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="90;150;90" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="120" r="150" fill="#A855F7" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="cx" values="820;680;820" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="120;60;120" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="320" r="140" fill="#22D3EE" opacity="0.22" filter="url(#blur)">
+    <animate attributeName="cx" values="520;630;520" dur="18s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect width="1000" height="360" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;44 44" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="#ffffff">
+    <circle cx="120" cy="60" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="40" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="4s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="80" r="1.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="55" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="4.5s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="90" r="1.7"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="45" r="1.3"><animate attributeName="opacity" values="0.4;1;0.4" dur="5s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="460" cy="30" r="1.1"><animate attributeName="opacity" values="1;0.3;1" dur="3.8s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="110" y="215" font-family="'Fira Code',Consolas,monospace" font-size="40" fill="#22D3EE" opacity="0.22">&lt;/&gt;</text>
+  <text x="860" y="240" font-family="'Fira Code',Consolas,monospace" font-size="40" fill="#A855F7" opacity="0.22">{ }</text>
+  <text x="150" y="300" font-family="'Fira Code',Consolas,monospace" font-size="26" fill="#6C63FF" opacity="0.18">01001</text>
+  <text x="820" y="310" font-family="'Fira Code',Consolas,monospace" font-size="26" fill="#22D3EE" opacity="0.18">10110</text>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+    <text x="500" y="168" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="3" fill="url(#nameGrad)">WAJIHA AZEEM</text>
+  </g>
+
+  <ellipse cx="500" cy="200" rx="240" ry="16" fill="#A855F7" opacity="0.28" filter="url(#soft)">
+    <animate attributeName="rx" values="220;265;220" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <rect y="207" height="3" rx="1.5" fill="url(#lineGrad)" x="440" width="120">
+    <animate attributeName="width" values="120;300;120" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="440;350;440" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="500" y="248" text-anchor="middle" font-family="'Fira Code',Consolas,monospace" font-size="17" fill="#c9c6ff" letter-spacing="2">DEVELOPER  •  CREATOR  •  PROBLEM SOLVER</text>
+
+  <rect x="0" y="0" width="1000" height="2" fill="#22D3EE">
+    <animate attributeName="y" values="0;360" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.35;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="357" width="1000" height="3" fill="url(#lineGrad)"/>
+</svg>

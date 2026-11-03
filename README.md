@@ -6,13 +6,8 @@
 
 <div align="center">
 
-<!-- Animated wave header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:A855F7&height=200&section=header&text=Wajiha%20Azeem&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Developer%20%7C%20Creator%20%7C%20Learner&descAlignY=60&descSize=18" width="100%" />
-
-<!-- Typing animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Wajiha+%F0%9F%91%8B;Frontend+Developer;Always+learning+something+new;Let's+build+something+cool+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+<!-- Custom animated hero (assets/hero.svg) -->
+<img src="https://raw.githubusercontent.com/wajihaazeem/wajihaazeem/main/assets/hero.svg" alt="Wajiha Azeem" width="100%" />
 
 <!-- Profile views -->
 <img src="https://komarev.com/ghpvc/?username=wajihaazeem&label=Profile%20Views&color=6C63FF&style=for-the-badge" alt="Profile views" />
@@ -28,6 +23,16 @@
 - 💡 Interested in **clean UI, open source & problem solving**
 - 📫 Reach me at **your.email@example.com**
 - ⚡ Fun fact: **I love turning ideas into reality with code**
+
+---
+
+### Live Terminal <!-- Custom animated terminal (assets/terminal.svg) -->
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/wajihaazeem/wajihaazeem/main/assets/terminal.svg" alt="Terminal" width="100%" />
+
+</div>
 
 ---
 
@@ -72,9 +77,6 @@
 </div>
 
 ---
-
-<!-- Animated footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:6C63FF&height=120&section=footer" width="100%" />
 
 ---
 
