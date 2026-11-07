@@ -46,43 +46,15 @@
 
 ---
 
-## 📚 Areas of Interest
-
-```text
-Software Development      █████████░
-Object-Oriented Design    ████████░░
-Database Management       ████████░░
-Problem Solving           █████████░
-Continuous Learning       ██████████
-```
-
----
-
-## 📊 GitHub Statistics
-
-<!-- Replace wajihaazeem with your GitHub username -->
+## Connect With Me
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wajihaazeem&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajihaazeem&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+  <i>Open to collaboration, internships, and full-time opportunities.</i>
 </p>
-
----
-
-## 🔥 GitHub Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=wajihaazeem&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## 🌐 Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/wajeehaazeem/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect_With_Me-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <a href="https://www.linkedin.com/in/wajeehaazeem/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/wajihaazeem"><img src="https://img.shields.io/badge/GitHub-0B2545?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---
