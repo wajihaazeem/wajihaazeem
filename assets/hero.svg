@@ -1,84 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" role="img" aria-label="Wajiha Azeem — Frontend Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="100%" role="img" aria-label="Wajiha Azeem — Data Science and Software Development">
   <defs>
-    <radialGradient id="glowLeft" cx="0.12" cy="0.25" r="0.75">
-      <stop offset="0" stop-color="#B0D4E3" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#B0D4E3" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowRight" cx="0.9" cy="0.7" r="0.6">
-      <stop offset="0" stop-color="#4682B4" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#4682B4" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B0D4E3"/>
+      <stop offset="0.5" stop-color="#4682B4"/>
+      <stop offset="1" stop-color="#B0D4E3"/>
+      <animate attributeName="x1" values="-0.4;0.2;-0.4" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.6;1.2;0.6" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#2C5A82"/>
+    </linearGradient>
+    <linearGradient id="wm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2EDF5"/>
+      <stop offset="1" stop-color="#D3E4EF"/>
+    </linearGradient>
     <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#B0D4E3" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#4682B4"/>
       <stop offset="1" stop-color="#B0D4E3" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5D9BC7"/>
-      <stop offset="1" stop-color="#4682B4"/>
-    </linearGradient>
+    <radialGradient id="glowLeft" cx="0.1" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#B0D4E3" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#B0D4E3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0.9" cy="0.8" r="0.7">
+      <stop offset="0" stop-color="#4682B4" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#4682B4" stop-opacity="0"/>
+    </radialGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="7"/>
+      <feGaussianBlur stdDeviation="6"/>
     </filter>
   </defs>
 
-  <rect width="1000" height="280" fill="#F7F9FC"/>
-  <rect width="1000" height="280" fill="url(#glowLeft)"/>
-  <rect width="1000" height="280" fill="url(#glowRight)"/>
+  <rect width="1000" height="260" fill="#F7F9FC"/>
+  <rect width="1000" height="260" fill="url(#glowLeft)"/>
+  <rect width="1000" height="260" fill="url(#glowRight)"/>
+  <rect width="1000" height="3" fill="url(#topGrad)"/>
 
-  <!-- eyebrow -->
-  <text x="70" y="58" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#5C7A99">GITHUB PROFILE</text>
-  <rect x="70" y="70" width="34" height="2.5" rx="1.25" fill="#4682B4"/>
+  <!-- monogram -->
+  <rect x="64" y="46" width="48" height="48" rx="13" fill="url(#brand)"/>
+  <text x="88" y="76" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.5" fill="#FFFFFF">WA</text>
 
-  <!-- name -->
-  <text x="70" y="126" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="700" letter-spacing="-0.5" fill="#0B2545">Wajiha Azeem</text>
+  <!-- name + role -->
+  <text x="126" y="68" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="0.3" fill="#0B2545">Wajiha Azeem</text>
+  <text x="127" y="89" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#5C7A99">Data Science  ·  Software Development</text>
 
-  <!-- role -->
-  <text x="70" y="154" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#5C7A99">Frontend Developer  ·  UI Engineer</text>
+  <!-- divider -->
+  <line x1="64" y1="116" x2="600" y2="116" stroke="#D6E2EC" stroke-width="1"/>
 
-  <!-- accent underline -->
-  <rect x="70" y="167" width="90" height="2" rx="1" fill="url(#accentLine)">
-    <animate attributeName="width" values="70;130;70" dur="6s" repeatCount="indefinite"/>
-  </rect>
+  <!-- tagline -->
+  <text x="64" y="144" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#334E68">Building clean software and data-driven solutions.</text>
 
   <!-- status pill -->
   <g>
-    <rect x="70" y="183" width="178" height="28" rx="14" fill="#FFFFFF" stroke="#D6E2EC" stroke-width="1"/>
-    <circle cx="88" cy="197" r="3.5" fill="#4682B4">
+    <rect x="64" y="162" width="186" height="30" rx="15" fill="#FFFFFF" stroke="#D6E2EC" stroke-width="1"/>
+    <circle cx="83" cy="177" r="3.5" fill="#4682B4">
       <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0.45;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="88" cy="197" r="3.5" fill="#4682B4" opacity="0.3" filter="url(#glow)">
+    <circle cx="83" cy="177" r="3.5" fill="#4682B4" opacity="0.3" filter="url(#glow)">
       <animate attributeName="r" values="3.5;8;3.5" dur="2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="102" y="201" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" fill="#334E68">Open to opportunities</text>
+    <text x="97" y="181" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" fill="#334E68">Open to opportunities</text>
   </g>
 
-  <!-- right orbital graphic -->
+  <!-- location pill -->
   <g>
-    <circle cx="835" cy="140" r="40" fill="none" stroke="#D6E2EC" stroke-width="1"/>
-    <circle cx="835" cy="140" r="68" fill="none" stroke="#C2D6E6" stroke-width="1"/>
-    <circle cx="835" cy="140" r="96" fill="none" stroke="#C2D6E6" stroke-width="1"/>
-
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0 835 140" to="360 835 140" dur="20s" repeatCount="indefinite"/>
-      <circle cx="835" cy="72" r="4" fill="#4682B4"/>
+    <rect x="258" y="162" width="140" height="30" rx="15" fill="#FFFFFF" stroke="#D6E2EC" stroke-width="1"/>
+    <g transform="translate(276,177)">
+      <path d="M0,9 C0,9 -7,3 -7,-2 A7,7 0 1,1 7,-2 C7,3 0,9 0,9 Z" fill="#4682B4"/>
+      <circle cx="0" cy="-2" r="2.4" fill="#FFFFFF"/>
     </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="360 835 140" to="0 835 140" dur="30s" repeatCount="indefinite"/>
-      <circle cx="835" cy="44" r="2.6" fill="#B0D4E3"/>
-    </g>
-
-    <circle cx="835" cy="140" r="8" fill="url(#node)"/>
-    <circle cx="835" cy="140" r="8" fill="#4682B4" opacity="0.4" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite"/>
-    </circle>
+    <text x="290" y="181" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" fill="#334E68">Lahore, Pakistan</text>
   </g>
 
-  <!-- footer hairline with moving highlight -->
-  <line x1="70" y1="254" x2="930" y2="254" stroke="#D6E2EC" stroke-width="1"/>
-  <rect y="253" width="90" height="2" rx="1" fill="url(#accentLine)">
-    <animate attributeName="x" values="70;840;70" dur="9s" repeatCount="indefinite"/>
+  <!-- right watermark -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/>
+    <circle cx="866" cy="128" r="98" fill="none" stroke="#E1EBF3" stroke-width="1"/>
+    <text x="866" y="196" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="180" font-weight="800" letter-spacing="-6" fill="url(#wm)">WA</text>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 866 128" to="360 866 128" dur="24s" repeatCount="indefinite"/>
+      <circle cx="866" cy="30" r="3.5" fill="#4682B4"/>
+    </g>
+  </g>
+
+  <!-- bottom hairline with moving highlight -->
+  <line x1="64" y1="228" x2="936" y2="228" stroke="#E1EBF3" stroke-width="1"/>
+  <rect y="227" width="90" height="2" rx="1" fill="url(#accentLine)">
+    <animate attributeName="x" values="64;846;64" dur="10s" repeatCount="indefinite"/>
   </rect>
 </svg>
