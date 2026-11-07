@@ -9,73 +9,88 @@
 <!-- Custom animated hero (assets/hero.svg) -->
 <img src="https://raw.githubusercontent.com/wajihaazeem/wajihaazeem/main/assets/hero.svg" alt="Wajiha Azeem" width="100%" />
 
-<!-- Profile views -->
-<img src="https://komarev.com/ghpvc/?username=wajihaazeem&label=Profile%20Views&color=4682B4&style=for-the-badge" alt="Profile views" />
 
-</div>
-
----
-
-### About Me <!-- EDIT -->
-
-- 🔭 Currently working on **an exciting project**
-- 🌱 Currently learning **TypeScript, React & Node.js**
-- 💡 Interested in **clean UI, open source & problem solving**
-- 📫 Reach me at **your.email@example.com**
-- ⚡ Fun fact: **I love turning ideas into reality with code**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+Profile!;Learning%2C+Building%2C+and+Growing;Passionate+About+Technology;Turning+Ideas+Into+Reality" alt="Typing SVG" />
+</p>
 
 ---
 
-### Live Terminal <!-- Custom animated terminal (assets/terminal.svg) -->
+## 👩‍💻 About Me
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/wajihaazeem/wajihaazeem/main/assets/terminal.svg" alt="Terminal" width="100%" />
-
-</div>
-
----
-
-### Tech Stack <!-- EDIT: keep the ones you use, delete the rest -->
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,git,github,vscode,figma&theme=dark&perline=7" alt="Tech stack" />
-
-</div>
+- 🎓 Passionate about Data Science and Software Development
+- 🌱 Continuously learning new technologies
+- 💡 Interested in solving real-world problems through code
+- 🤝 Open to collaboration and innovative projects
+- 🚀 Focused on improving my technical and professional skills
+- 📍 Based in Lahore, Pakistan
 
 ---
 
-### GitHub Analytics <!-- Uses your username automatically -->
+## 🛠️ Tech Stack
 
-<div align="center">
+### Programming Languages
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=wajihaazeem&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=F7F9FC&title_color=0B2545&text_color=334E68&icon_color=4682B4" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajihaazeem&layout=compact&langs_count=8&hide_border=true&bg_color=F7F9FC&title_color=0B2545&text_color=334E68" alt="Top languages" />
 
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wajihaazeem&bg_color=F7F9FC&color=0B2545&line=4682B4&point=4682B4&area=true&area_color=B0D4E3&hide_border=true" width="97%" alt="Contribution activity" />
-
-</div>
-
----
-
-### Connect With Me <!-- EDIT: replace # with your real links -->
-
-<div align="center">
-
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-4682B4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-0B2545?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="#"><img src="https://img.shields.io/badge/X-0B2545?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-4682B4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-
-</div>
+### Tools & Technologies
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ---
 
+## 📚 Areas of Interest
+
+```text
+Software Development      █████████░
+Object-Oriented Design    ████████░░
+Database Management       ████████░░
+Problem Solving           █████████░
+Continuous Learning       ██████████
+```
+
 ---
 
-<div align="center">
-<i>⭐ Thanks for visiting — let's build something amazing together!</i>
-</div>
+## 📊 GitHub Statistics
+
+<!-- Replace wajihaazeem with your GitHub username -->
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wajihaazeem&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajihaazeem&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+</p>
+
+---
+
+## 🔥 GitHub Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=wajihaazeem&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/wajeehaazeem/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect_With_Me-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Great things are built one line of code at a time."</i>
+</p>
+
+<p align="center">
+  ⭐ Thanks for visiting my GitHub profile!
+</p>
