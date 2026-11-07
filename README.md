@@ -16,14 +16,15 @@
 
 ---
 
-## 👩‍💻 About Me
+## About
 
-- 🎓 Passionate about Data Science and Software Development
-- 🌱 Continuously learning new technologies
-- 💡 Interested in solving real-world problems through code
-- 🤝 Open to collaboration and innovative projects
-- 🚀 Focused on improving my technical and professional skills
-- 📍 Based in Lahore, Pakistan
+Engineer focused on building reliable, data-driven software. I approach problems with a product mindset — designing clean, maintainable solutions and communicating trade-offs clearly.
+
+- **Core stack** — C++, Java, Python, and SQL, grounded in object-oriented design and algorithmic problem solving.
+- **Data & automation** — Turning data into practical insight and streamlining workflows with tools like n8n.
+- **Engineering practice** — Clean architecture, readable code, thoughtful reviews, and measurable impact.
+- **Collaboration** — Open to working with teams on products where well-built software makes a real difference.
+- Based in Lahore, Pakistan.
 
 ---
 
